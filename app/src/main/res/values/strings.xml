@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Perfil X</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="first_fragment_label">Publicaciones</string>
+    <string name="second_fragment_label">Respuestas</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="lorem_ipsum">Contenido de ejemplo</string>
+</resources>

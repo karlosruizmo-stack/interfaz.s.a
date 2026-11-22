@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">200dp</dimen>
+    <dimen name="page_padding">36dp</dimen>
+    <dimen name="header_height">64dp</dimen>
+    <dimen name="cover_height">220dp</dimen>
+    <dimen name="avatar_size">108dp</dimen>
+    <dimen name="cover_logo_size">90sp</dimen>
+</resources>

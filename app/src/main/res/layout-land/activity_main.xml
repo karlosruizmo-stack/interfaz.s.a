@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/x_black">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <include layout="@layout/profile_info_land" />
+    </LinearLayout>
+    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@color/x_line" />
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:gravity="center_vertical"
+                android:paddingStart="20dp"
+                android:text="Publicaciones"
+                android:textColor="@color/x_white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/x_line" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="18dp">
+                <TextView android:layout_width="38dp" android:layout_height="38dp" android:gravity="center" android:text="𝕏" android:textColor="@color/x_white" android:textSize="27sp" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:paddingStart="10dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="X  ✓  @Twitter · 21 jul · ⋯" android:textColor="@color/x_muted" android:textSize="12sp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="We've had tremendous interest in the new ads revenue sharing program from creators around the world.\n\nCreators who are eligible will automatically be able to start receiving ads revenue upon launch — all you need to do is set up payouts and you'll be good to go!" android:textColor="@color/x_white" android:textSize="14sp" android:lineSpacingExtra="3dp" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Ads revenue...  Mostrar más" android:textColor="@color/x_blue" android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

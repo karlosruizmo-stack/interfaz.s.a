@@ -1,0 +1,33 @@
+<resources>
+    <style name="ProfileAction">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_following</item>
+        <item name="android:textColor">@color/x_white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+    <style name="ProfileTab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textColor">@color/x_muted</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="ProfileTabSelected" parent="ProfileTab">
+        <item name="android:textColor">@color/x_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_tab_selected</item>
+    </style>
+    <style name="BottomNavItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/x_white</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+</resources>
